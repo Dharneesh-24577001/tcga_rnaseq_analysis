@@ -4,9 +4,9 @@
 
 https://figshare.com/s/fd7276e3583b457bd61d
 
-a. Sample sheet file (gdc_sample_sheet.tsv)
-b. Manifest file (gdc_manifest.txt)
-c. Gene expression data (tcga_data.tar.gz)
+1) Sample sheet file (gdc_sample_sheet.tsv)
+2) Manifest file (gdc_manifest.txt)
+3) Gene expression data (tcga_data.tar.gz)
 
 The command: tar -zxvf tcga_data.tar.gz is ran to unzip to get the datas and then following snakemake is ran to obtain the results required .
    
