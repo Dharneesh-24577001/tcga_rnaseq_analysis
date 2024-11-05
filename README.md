@@ -8,7 +8,7 @@ https://figshare.com/s/fd7276e3583b457bd61d
 2) Manifest file (gdc_manifest.txt)
 3) Gene expression data (tcga_data.tar.gz)
 
-The command: tar -zxvf tcga_data.tar.gz is ran to unzip to get the datas and then following snakemake is ran to obtain the results required .
+The command: tar -zxvf tcga_data.tar.gz is ran to unzip and to get the datas and then follwed by this snakemake is ran to obtain the results required .
    
 2.  create a function to pull out, the directory name and the respecteive tpm value for the given gene (rule 1).
 
